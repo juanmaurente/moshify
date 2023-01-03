@@ -14,3 +14,11 @@ This project is a version of a Fully responsive Website created with pure HTML a
     -- Todo Highlight
 -   Git
 -   Normalize.css // npm install normalize.css
+
+## Fonts
+
+Inter and Montserrat
+
+## Color Palette
+
+## Components
