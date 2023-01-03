@@ -9,6 +9,7 @@ This project is a version of a Fully responsive Website created with pure HTML a
 -   Components (C#):
     -- C1: Links
     -- C2: Badges
+    -- C3: Lists
 
 ## Tools I've used for this project
 
