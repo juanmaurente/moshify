@@ -1,6 +1,10 @@
-# responsive-site-html-css
+# responsive-site-html-css the process
 
 This project is a version of a Fully responsive Website created with pure HTML and CSS.
+
+-   Mobile-first aproach.
+-   Color palette and variables definition in css
+-   Typography selection.
 
 ## Tools I've used for this project
 
@@ -14,11 +18,3 @@ This project is a version of a Fully responsive Website created with pure HTML a
     -- Todo Highlight
 -   Git
 -   Normalize.css // npm install normalize.css
-
-## Fonts
-
-Inter and Montserrat
-
-## Color Palette
-
-## Components
