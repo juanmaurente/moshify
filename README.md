@@ -10,6 +10,8 @@ This project is a version of a Fully responsive Website created with pure HTML a
     -- C1: Links
     -- C2: Badges
     -- C3: Lists
+    -- C4: Icons
+    -- C5: Buttons
 
 ## Tools I've used for this project
 
