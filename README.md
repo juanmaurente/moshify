@@ -3,8 +3,12 @@
 This project is a version of a Fully responsive Website created with pure HTML and CSS.
 
 -   Mobile-first aproach.
+-   OOP principles
 -   Color palette and variables definition in css
--   Typography selection.
+-   Typography selection and style for headings and p.
+-   Components (C#):
+    -- C1: Links
+    -- C2: Badges
 
 ## Tools I've used for this project
 
