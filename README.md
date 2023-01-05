@@ -6,8 +6,6 @@ This project is a version of a Fully responsive Website created with pure HTML a
 -   OOP principles
 -   Color palette and variables definition in css
 -   Typography selection and style for headings and p.
--   Components :
-    -- Links, Badges, Lists, Icons, Buttons, Input
 
 ## Tools I've used for this project
 
