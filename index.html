@@ -36,7 +36,7 @@
 					><img src="images/logo.svg" alt="logo"
 				/></a>
 				<svg class="icon icon--white nav__toggler">
-					<use :href="images/sprite.svg#menu"></use>
+					<use xlink:href="images/sprite.svg#menu"></use>
 				</svg>
 				<ul class="list nav__list collapsible__content">
 					<li class="nav__item"><a href="#">Hosting</a></li>
@@ -77,9 +77,8 @@
 			<header class="block__header">
 				<h2>Starting at $9 per month</h2>
 				<p>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-					Quia architecto unde natus officiis debitis harum ut
-					accusantium quibusdam obcaecati quidem.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					Sed, voluptatem.
 				</p>
 			</header>
 			<div class="input-group">
@@ -90,7 +89,7 @@
 				/>
 				<button class="btn btn--accent">
 					<svg class="icon icon--primary">
-						<use :href="images/sprite.svg#search"></use>
+						<use xlink:href="images/sprite.svg#search"></use>
 					</svg>
 					Search
 				</button>
@@ -202,7 +201,7 @@
 				<div class="feature__content" data-aos="fade-right">
 					<span class="icon-container">
 						<svg class="icon icon--primary">
-							<use :href="images/sprite.svg#wordpress"></use>
+							<use xlink:href="images/sprite.svg#easy"></use>
 						</svg>
 					</span>
 					<h3 class="feature__heading">Super Easy to Use</h3>
@@ -233,10 +232,10 @@
 				<div class="feature__content" data-aos="fade-left">
 					<span class="icon-container">
 						<svg class="icon icon--primary">
-							<use :href="images/sprite.svg#wordpress"></use>
+							<use xlink:href="images/sprite.svg#computer"></use>
 						</svg>
 					</span>
-					<h3 class="feature__heading">Super Easy to Use</h3>
+					<h3 class="feature__heading">Simply Fast Websites</h3>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
 						Quam obcaecati vel ad unde est illo at. Labore excepturi
@@ -247,15 +246,15 @@
 				<picture>
 					<source
 						type="image/webp"
-						srcset="images/easy.webp 1x, images/easy@2x.webp 2x"
+						srcset="images/fast.webp 1x, images/fast@2x.webp 2x"
 					/>
 					<source
 						type="image/jpg"
-						srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x"
+						srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x"
 					/>
 					<img
 						class="feature__image"
-						src="images/easy@2x.jpg"
+						src="images/fast@2x.jpg"
 						alt=""
 					/>
 				</picture>
@@ -287,7 +286,9 @@
 						<div class="media">
 							<div class="media__image">
 								<svg class="icon icon--primary">
-									<use :href="images/sprite.svg#snap"></use>
+									<use
+										xlink:href="images/sprite.svg#snap"
+									></use>
 								</svg>
 							</div>
 							<div class="media__body">
@@ -307,7 +308,9 @@
 						<div class="media">
 							<div class="media__image">
 								<svg class="icon icon--primary">
-									<use :href="images/sprite.svg#growth"></use>
+									<use
+										xlink:href="images/sprite.svg#growth"
+									></use>
 								</svg>
 							</div>
 							<div class="media__body">
@@ -328,7 +331,7 @@
 							<div class="media__image">
 								<svg class="icon icon--primary">
 									<use
-										:href="images/sprite.svg#wordpress"
+										xlink:href="images/sprite.svg#wordpress"
 									></use>
 								</svg>
 							</div>
@@ -368,7 +371,9 @@
 							/>
 							<span class="icon-container icon-container--accent">
 								<svg class="icon icon--white icon--small">
-									<use :href="images/sprite.svg#quotes"></use>
+									<use
+										xlink:href="images/sprite.svg#quotes"
+									></use>
 								</svg>
 							</span>
 						</div>
@@ -386,7 +391,7 @@
 											class="icon icon--primary quote__line"
 										>
 											<use
-												:href="images/sprite.svg#line"
+												xlink:href="images/sprite.svg#line"
 											></use>
 										</svg>
 									</div>
@@ -410,7 +415,7 @@
 		<div class="callout callout--primary">
 			<div class="grid grid--1x2">
 				<div class="callout__content">
-					<h2 class="callout__heading">Ready to Get Started</h2>
+					<h2 class="callout__heading">Ready to Get Started?</h2>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
 						Soluta tempore repellendus voluptatem praesentium
@@ -431,19 +436,22 @@
 				>
 					<div class="collapsible__header">
 						<h2 class="collapsible__heading footer__heading">
-							Item 1
+							PRODUCTS
 						</h2>
 						<svg class="icon icon--white collapsible__chevron">
-							<use :href="images/sprite.svg#chevron"></use>
+							<use xlink:href="images/sprite.svg#chevron"></use>
 						</svg>
 					</div>
 					<div class="collapsible__content">
 						<ul class="list">
 							<li>
-								<a href="">Web Hosting</a>
+								<a href="">Website Hosting</a>
 							</li>
 							<li>
-								<a href="">Free Automated Wordpress</a>
+								<a href="">Free Automated</a>
+							</li>
+							<li>
+								<a href="">Wordpress</a>
 							</li>
 							<li>
 								<a href="">Migrations</a>
@@ -454,22 +462,22 @@
 				<section class="collapsible footer__section">
 					<div class="collapsible__header">
 						<h2 class="collapsible__heading footer__heading">
-							Item 2
+							COMPANY
 						</h2>
 						<svg class="icon icon--white collapsible__chevron">
-							<use :href="images/sprite.svg#chevron"></use>
+							<use xlink:href="images/sprite.svg#chevron"></use>
 						</svg>
 					</div>
 					<div class="collapsible__content">
 						<ul class="list">
 							<li>
-								<a href="">Migrations</a>
+								<a href="">About</a>
 							</li>
 							<li>
-								<a href="">Migrations</a>
+								<a href="">Afiliates</a>
 							</li>
 							<li>
-								<a href="">Migrations</a>
+								<a href="">Blog</a>
 							</li>
 						</ul>
 					</div>
@@ -477,22 +485,22 @@
 				<section class="collapsible footer__section">
 					<div class="collapsible__header">
 						<h2 class="collapsible__heading footer__heading">
-							Item 3
+							SUPPORT
 						</h2>
 						<svg class="icon icon--white collapsible__chevron">
-							<use :href="images/sprite.svg#chevron"></use>
+							<use xlink:href="images/sprite.svg#chevron"></use>
 						</svg>
 					</div>
 					<div class="collapsible__content">
 						<ul class="list">
 							<li>
-								<a href="">Migrations</a>
+								<a href="">Contact</a>
 							</li>
 							<li>
-								<a href="">Migrations</a>
+								<a href="">Knowledge Base</a>
 							</li>
 							<li>
-								<a href="">Migrations</a>
+								<a href="">FAQ</a>
 							</li>
 						</ul>
 					</div>
