@@ -1,2 +1,5 @@
-node_modules
-filesFromCourse
+node_modules/
+filesFromCourse/
+dist/
+.cache/
+*.htmlnanorc
